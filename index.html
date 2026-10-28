@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Katasani Vijaya Lakshmi | Portfolio</title>
-    <meta name="description" content="Portfolio of Katasani Vijaya Lakshmi, Computer Science & Engineering Graduate.">
+    <meta name="description" content="Portfolio of Katasani Vijaya Lakshmi — Computer Science & Engineering graduate specializing in Python, Machine Learning, and AI-based applications.">
     
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -115,28 +115,6 @@
             background: rgba(255, 255, 255, 0.1);
             transform: translateY(-2px);
         }
-        
-        .timeline-item::before {
-            content: '';
-            position: absolute;
-            left: -1px;
-            top: 0;
-            height: 100%;
-            width: 2px;
-            background: rgba(255,255,255,0.1);
-        }
-
-        .timeline-dot {
-            position: absolute;
-            left: -5px;
-            top: 6px;
-            width: 10px;
-            height: 10px;
-            border-radius: 50%;
-            background: #60a5fa;
-            border: 2px solid #0a0f1c;
-            z-index: 10;
-        }
 
         section {
             scroll-margin-top: 5rem;
@@ -214,6 +192,7 @@
                 <a href="#education" class="hover:text-brand-400 transition-colors">Education</a>
                 <a href="#skills" class="hover:text-brand-400 transition-colors">Skills</a>
                 <a href="#projects" class="hover:text-brand-400 transition-colors">Projects</a>
+                <a href="#certifications" class="hover:text-brand-400 transition-colors">Certifications</a>
                 <a href="#contact" class="hover:text-brand-400 transition-colors">Contact</a>
                 <a href="#contact" class="btn-primary text-white px-5 py-2 rounded-full shadow-lg">Let's Talk</a>
             </div>
@@ -231,6 +210,7 @@
                 <a href="#education" class="mobile-link">Education</a>
                 <a href="#skills" class="mobile-link">Skills</a>
                 <a href="#projects" class="mobile-link">Projects</a>
+                <a href="#certifications" class="mobile-link">Certifications</a>
                 <a href="#contact" class="mobile-link">Contact</a>
                 <a href="#contact" class="text-center btn-primary text-white px-5 py-2 rounded-full">Let's Talk</a>
             </div>
@@ -240,49 +220,68 @@
     <!-- Hero Section -->
     <section id="hero" class="pt-32 pb-20 lg:pt-48 lg:pb-32 px-6 max-w-7xl mx-auto flex flex-col lg:flex-row items-center justify-between gap-[30px] md:gap-[40px] lg:gap-[60px] opacity-0 animate-fade-in-up">
         <div class="w-full lg:w-[55%] text-center lg:text-left space-y-6">
-            <span class="inline-block py-1 px-3 rounded-full bg-brand-500/10 text-brand-400 text-sm font-medium border border-brand-500/20 mb-2">
-                <i class="fas fa-location-dot mr-2"></i>Nandyal, India
-            </span>
+            <div class="flex flex-wrap items-center justify-center lg:justify-start gap-2 mb-2">
+                <span class="inline-block py-1 px-3 rounded-full bg-brand-500/10 text-brand-400 text-sm font-medium border border-brand-500/20">
+                    <i class="fas fa-location-dot mr-2"></i>Nandyal, India
+                </span>
+                <span class="inline-block py-1 px-3 rounded-full bg-green-500/10 text-green-400 text-sm font-medium border border-green-500/20">
+                    <i class="fas fa-circle-check mr-2"></i>Available for AI & Software Roles
+                </span>
+            </div>
+            
             <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight leading-tight">
                 Hi, I'm <br/><span class="gradient-text">Katasani Vijaya Lakshmi</span>
             </h1>
-            <p class="text-xl md:text-2xl font-medium text-gray-300">
-                Resourceful Computer Science Engineer
+            
+            <p class="text-xl md:text-2xl font-semibold text-gray-200">
+                Computer Science & Engineering Graduate
             </p>
-            <p class="text-gray-400 max-w-xl mx-auto lg:mx-0 text-lg leading-relaxed">
-                Java • SQL • Mainframe
+            
+            <p class="text-brand-400 font-medium text-lg">
+                Python • Machine Learning • AI-Based Applications • Java • SQL
+            </p>
+
+            <p class="text-gray-400 max-w-xl mx-auto lg:mx-0 text-base leading-relaxed">
+                Passionate about applying programming, data analysis, and problem-solving skills to build practical, intelligent AI systems and scalable software solutions.
             </p>
             
             <!-- CTAs -->
-            <div class="flex flex-wrap justify-center lg:justify-start gap-4 pt-4">
-                <a href="#projects" class="btn-primary px-8 py-3 rounded-full text-white font-medium flex items-center">
+            <div class="flex flex-wrap justify-center lg:justify-start gap-4 pt-2">
+                <a href="#projects" class="btn-primary px-8 py-3 rounded-full text-white font-medium flex items-center shadow-lg">
                     View Projects <i class="fas fa-arrow-right ml-2"></i>
                 </a>
                 <div class="flex gap-3">
-                    <a href="https://github.com/Katasani-Vijayalakshmi" target="_blank" rel="noopener noreferrer" class="btn-secondary w-12 h-12 flex items-center justify-center rounded-full text-gray-300 hover:text-white" aria-label="GitHub">
+                    <a href="https://github.com/Katasani-Vijayalakshmi" target="_blank" rel="noopener noreferrer" class="btn-secondary w-12 h-12 flex items-center justify-center rounded-full text-gray-300 hover:text-white" aria-label="GitHub" title="GitHub">
                         <i class="fab fa-github text-xl"></i>
                     </a>
-                    <a href="https://www.linkedin.com/in/katasani-vijayalakshmi/" target="_blank" rel="noopener noreferrer" class="btn-secondary w-12 h-12 flex items-center justify-center rounded-full text-gray-300 hover:text-white" aria-label="LinkedIn">
+                    <a href="https://www.linkedin.com/in/katasani-vijayalakshmi/" target="_blank" rel="noopener noreferrer" class="btn-secondary w-12 h-12 flex items-center justify-center rounded-full text-gray-300 hover:text-white" aria-label="LinkedIn" title="LinkedIn">
                         <i class="fab fa-linkedin-in text-xl"></i>
                     </a>
-                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=kvijaya4446@gmail.com" target="_blank" rel="noopener noreferrer" class="btn-secondary w-12 h-12 flex items-center justify-center rounded-full text-gray-300 hover:text-white" aria-label="Email">
+                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=kvijaya4446@gmail.com" target="_blank" rel="noopener noreferrer" class="btn-secondary w-12 h-12 flex items-center justify-center rounded-full text-gray-300 hover:text-white" aria-label="Email" title="Email kvijaya4446@gmail.com">
                         <i class="fas fa-envelope text-xl"></i>
+                    </a>
+                    <a href="tel:+916301687092" class="btn-secondary w-12 h-12 flex items-center justify-center rounded-full text-gray-300 hover:text-white" aria-label="Phone" title="Call +91 6301687092">
+                        <i class="fas fa-phone text-lg"></i>
                     </a>
                 </div>
             </div>
 
-            <!-- Stats -->
+            <!-- Stats Counters -->
             <div class="flex flex-wrap justify-center lg:justify-start gap-8 pt-8 border-t border-gray-800 mt-8">
                 <div>
                     <h3 class="text-3xl font-bold text-white mb-1">3+</h3>
                     <p class="text-sm text-gray-400 font-medium">Key Projects</p>
                 </div>
                 <div>
-                    <h3 class="text-3xl font-bold text-white mb-1">4</h3>
+                    <h3 class="text-3xl font-bold text-white mb-1">3</h3>
                     <p class="text-sm text-gray-400 font-medium">Certifications</p>
                 </div>
                 <div>
-                    <h3 class="text-3xl font-bold text-white mb-1">3</h3>
+                    <h3 class="text-3xl font-bold text-white mb-1">9.07</h3>
+                    <p class="text-sm text-gray-400 font-medium">B.Tech CGPA</p>
+                </div>
+                <div>
+                    <h3 class="text-3xl font-bold text-white mb-1">2</h3>
                     <p class="text-sm text-gray-400 font-medium">Languages</p>
                 </div>
             </div>
@@ -306,15 +305,47 @@
     <section id="about" class="py-20 px-6 max-w-7xl mx-auto">
         <div class="mb-12 md:mb-16">
             <span class="kicker">Who I Am</span>
-            <h2 class="text-3xl md:text-4xl font-bold">About Me</h2>
+            <h2 class="text-3xl md:text-4xl font-bold">Career Objective & About Me</h2>
         </div>
-        <div class="card p-8 md:p-10 rounded-2xl space-y-6">
-            <p class="text-gray-300 text-lg leading-relaxed">
-                A driven and adaptable Computer Science Engineering graduate from Vel Tech University, with a strong foundation in <span class="text-brand-400 font-medium">Java, SQL, and Mainframe technologies</span>. I thrive at the intersection of technology and innovation — quickly adapting to new tools, frameworks, and challenges while consistently delivering reliable, well-engineered solutions. With hands-on experience across full-stack development, machine learning, and database systems, I approach every problem with curiosity and creativity, breaking down complexity into practical, scalable outcomes.
+        
+        <div class="card p-8 md:p-10 rounded-2xl space-y-6 border border-gray-800">
+            <div class="border-l-4 border-brand-500 pl-4 py-1 bg-brand-500/5 rounded-r-lg">
+                <p class="text-gray-200 text-lg md:text-xl font-medium leading-relaxed italic">
+                    "A motivated Computer Science and Engineering graduate with a strong academic record and hands-on project experience in Python, machine learning, and AI-based applications. Seeking an opportunity to apply my programming, data analysis, and problem-solving skills to develop practical AI solutions while learning and growing professionally."
+                </p>
+            </div>
+            
+            <p class="text-gray-300 text-base md:text-lg leading-relaxed">
+                Graduating from <span class="text-white font-semibold">Vel Tech Rangarajan Dr. Sagunthala R&D Institute of Science and Technology</span> with a <span class="text-brand-400 font-semibold">9.07 CGPA</span>, I combine strong theoretical computer science foundations with hands-on development in Python, Machine Learning, Deep Learning, and Database Management Systems.
             </p>
-            <p class="text-gray-300 text-lg leading-relaxed">
-                I see myself as an emerging leader who takes ownership of my work — someone who doesn't just complete tasks, but takes responsibility for outcomes, collaborates effectively with teams, and proactively drives projects toward success. I'm passionate about continuous growth, always seeking to deepen my technical expertise while building the judgment and accountability needed to lead with confidence.
+
+            <p class="text-gray-300 text-base md:text-lg leading-relaxed">
+                From developing an intelligent <strong class="text-white">AI-Driven Smart Hiring Platform</strong> with voice screening and resume parsing copilots, to engineering predictive systems for <strong class="text-white">UPI Fraud Detection</strong> and image classification with <strong class="text-white">ResNet50 & CNNs</strong>, I take ownership of solving real-world challenges with curiosity, precision, and reliable code.
             </p>
+
+            <!-- Highlights Grid -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 pt-4">
+                <div class="p-4 rounded-xl bg-dark-800/60 border border-gray-800">
+                    <div class="text-brand-400 text-xl mb-2"><i class="fas fa-brain"></i></div>
+                    <h4 class="text-white font-semibold text-sm">AI & Machine Learning</h4>
+                    <p class="text-gray-400 text-xs mt-1">Deep Learning, CNN, ResNet50, NLP & spaCy</p>
+                </div>
+                <div class="p-4 rounded-xl bg-dark-800/60 border border-gray-800">
+                    <div class="text-purple-400 text-xl mb-2"><i class="fas fa-code"></i></div>
+                    <h4 class="text-white font-semibold text-sm">Programming & Data</h4>
+                    <p class="text-gray-400 text-xs mt-1">Python, Java, SQL, Pandas & Scikit-learn</p>
+                </div>
+                <div class="p-4 rounded-xl bg-dark-800/60 border border-gray-800">
+                    <div class="text-green-400 text-xl mb-2"><i class="fas fa-robot"></i></div>
+                    <h4 class="text-white font-semibold text-sm">RPA & Automation</h4>
+                    <p class="text-gray-400 text-xs mt-1">UiPath (Currently Learning) & Workflow Automation</p>
+                </div>
+                <div class="p-4 rounded-xl bg-dark-800/60 border border-gray-800">
+                    <div class="text-yellow-400 text-xl mb-2"><i class="fas fa-users"></i></div>
+                    <h4 class="text-white font-semibold text-sm">Collaborative Mindset</h4>
+                    <p class="text-gray-400 text-xs mt-1">Analytical Thinking, Teamwork & Adaptability</p>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -332,13 +363,15 @@
                 <div class="card p-6 md:p-8 rounded-xl ml-4">
                     <div class="flex flex-col md:flex-row md:justify-between md:items-start mb-4 gap-2">
                         <div>
-                            <h3 class="text-xl font-bold text-white">B.Tech, Computer Science and Engineering</h3>
-                            <p class="text-brand-400 font-medium">Vel Tech University, Chennai</p>
+                            <h3 class="text-xl font-bold text-white">B.Tech in Computer Science and Engineering</h3>
+                            <p class="text-brand-400 font-medium">Vel Tech Rangarajan Dr. Sagunthala R&D Institute of Science and Technology, Chennai</p>
                         </div>
                         <span class="inline-block py-1 px-3 bg-gray-800 rounded-full text-xs font-semibold text-gray-300 whitespace-nowrap">2022 &mdash; 2026</span>
                     </div>
-                    <p class="text-gray-400">Graduating with a strong academic record. Actively involved in technical projects and learning core computer science concepts.</p>
-                    <div class="mt-4 inline-flex items-center text-sm font-semibold bg-green-500/10 text-green-400 px-3 py-1 rounded-md">
+                    <p class="text-gray-400 text-sm leading-relaxed mb-4">
+                        Strong academic record with focused coursework in Object-Oriented Programming, Database Management Systems, Machine Learning, Data Preprocessing, and Software Engineering.
+                    </p>
+                    <div class="inline-flex items-center text-sm font-semibold bg-green-500/10 text-green-400 px-3 py-1.5 rounded-md border border-green-500/20">
                         <i class="fas fa-star mr-2"></i> CGPA: 9.07
                     </div>
                 </div>
@@ -350,12 +383,12 @@
                 <div class="card p-6 md:p-8 rounded-xl ml-4">
                     <div class="flex flex-col md:flex-row md:justify-between md:items-start mb-4 gap-2">
                         <div>
-                            <h3 class="text-xl font-bold text-white">Intermediate</h3>
-                            <p class="text-gray-400 font-medium">SDR's Akanksha Junior College, AP</p>
+                            <h3 class="text-xl font-bold text-white">Intermediate (MPC)</h3>
+                            <p class="text-gray-400 font-medium">SDR's Akanksha Junior College, Andhra Pradesh</p>
                         </div>
                         <span class="inline-block py-1 px-3 bg-gray-800 rounded-full text-xs font-semibold text-gray-300 whitespace-nowrap">2020 &mdash; 2022</span>
                     </div>
-                    <div class="inline-flex items-center text-sm font-semibold bg-green-500/10 text-green-400 px-3 py-1 rounded-md">
+                    <div class="inline-flex items-center text-sm font-semibold bg-green-500/10 text-green-400 px-3 py-1.5 rounded-md border border-green-500/20">
                         <i class="fas fa-star mr-2"></i> CGPA: 9.71
                     </div>
                 </div>
@@ -368,11 +401,11 @@
                     <div class="flex flex-col md:flex-row md:justify-between md:items-start mb-4 gap-2">
                         <div>
                             <h3 class="text-xl font-bold text-white">Secondary School Certificate (SSC)</h3>
-                            <p class="text-gray-400 font-medium">SDR EM High School, Nandyal, AP</p>
+                            <p class="text-gray-400 font-medium">SDR EM High School, Nandyal, Andhra Pradesh</p>
                         </div>
                         <span class="inline-block py-1 px-3 bg-gray-800 rounded-full text-xs font-semibold text-gray-300 whitespace-nowrap">2019 &mdash; 2020</span>
                     </div>
-                    <div class="inline-flex items-center text-sm font-semibold bg-green-500/10 text-green-400 px-3 py-1 rounded-md">
+                    <div class="inline-flex items-center text-sm font-semibold bg-green-500/10 text-green-400 px-3 py-1.5 rounded-md border border-green-500/20">
                         <i class="fas fa-star mr-2"></i> CGPA: 9.05
                     </div>
                 </div>
@@ -395,81 +428,141 @@
                 </h3>
                 <div class="space-y-4">
                     <div>
-                        <div class="flex justify-between mb-1"><span class="text-sm font-medium text-gray-200">Java</span><span class="text-xs text-brand-400"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></span></div>
+                        <div class="flex justify-between mb-1">
+                            <span class="text-sm font-medium text-gray-200">Python</span>
+                            <span class="text-xs text-brand-400"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></span>
+                        </div>
                         <div class="w-full bg-dark-800 rounded-full h-1.5"><div class="bg-brand-500 h-1.5 rounded-full" style="width: 90%"></div></div>
                     </div>
                     <div>
-                        <div class="flex justify-between mb-1"><span class="text-sm font-medium text-gray-200">Python</span><span class="text-xs text-brand-400"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></span></div>
-                        <div class="w-full bg-dark-800 rounded-full h-1.5"><div class="bg-brand-500 h-1.5 rounded-full" style="width: 80%"></div></div>
+                        <div class="flex justify-between mb-1">
+                            <span class="text-sm font-medium text-gray-200">Java</span>
+                            <span class="text-xs text-brand-400"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></span>
+                        </div>
+                        <div class="w-full bg-dark-800 rounded-full h-1.5"><div class="bg-brand-500 h-1.5 rounded-full" style="width: 88%"></div></div>
                     </div>
                     <div>
-                        <div class="flex justify-between mb-1"><span class="text-sm font-medium text-gray-200">SQL / MySQL</span><span class="text-xs text-brand-400"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></span></div>
+                        <div class="flex justify-between mb-1">
+                            <span class="text-sm font-medium text-gray-200">SQL / MySQL</span>
+                            <span class="text-xs text-brand-400"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></span>
+                        </div>
                         <div class="w-full bg-dark-800 rounded-full h-1.5"><div class="bg-brand-500 h-1.5 rounded-full" style="width: 85%"></div></div>
                     </div>
-                    <div>
-                        <div class="flex justify-between mb-1"><span class="text-sm font-medium text-gray-200">HTML / CSS</span><span class="text-xs text-brand-400"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i><i class="far fa-star"></i></span></div>
-                        <div class="w-full bg-dark-800 rounded-full h-1.5"><div class="bg-brand-500 h-1.5 rounded-full" style="width: 75%"></div></div>
-                    </div>
-                    <div>
-                        <div class="flex justify-between mb-1"><span class="text-sm font-medium text-gray-200">JCL</span><span class="text-xs text-brand-400"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i><i class="far fa-star"></i></span></div>
-                        <div class="w-full bg-dark-800 rounded-full h-1.5"><div class="bg-brand-500 h-1.5 rounded-full" style="width: 70%"></div></div>
+                </div>
+
+                <!-- RPA / Automation -->
+                <div class="mt-6 pt-6 border-t border-gray-800">
+                    <h4 class="text-sm font-semibold mb-3 flex items-center text-white">
+                        <i class="fas fa-robot mr-2 text-purple-400"></i> RPA / Automation
+                    </h4>
+                    <div class="flex items-center justify-between p-3 bg-dark-800/80 rounded-lg border border-purple-500/20">
+                        <span class="text-sm font-medium text-gray-200">UiPath</span>
+                        <span class="text-xs px-2.5 py-1 rounded-full bg-purple-500/20 text-purple-300 font-semibold border border-purple-500/30">
+                            Currently Learning
+                        </span>
                     </div>
                 </div>
             </div>
 
-            <!-- Frameworks & Libraries -->
+            <!-- AI/ML & Libraries -->
             <div class="card p-6 rounded-xl">
                 <h3 class="text-lg font-semibold mb-4 flex items-center text-white">
-                    <i class="fas fa-cubes mr-3 text-brand-400"></i> Frameworks & Libraries
+                    <i class="fas fa-brain mr-3 text-brand-400"></i> AI/ML & Libraries
                 </h3>
                 <div class="space-y-4">
                     <div>
-                        <div class="flex justify-between mb-1"><span class="text-sm font-medium text-gray-200">JDBC</span><span class="text-xs text-brand-400"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></span></div>
+                        <div class="flex justify-between mb-1">
+                            <span class="text-sm font-medium text-gray-200">Machine Learning & Deep Learning</span>
+                            <span class="text-xs text-brand-400"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></span>
+                        </div>
+                        <div class="w-full bg-dark-800 rounded-full h-1.5"><div class="bg-brand-500 h-1.5 rounded-full" style="width: 88%"></div></div>
+                    </div>
+                    <div>
+                        <div class="flex justify-between mb-1">
+                            <span class="text-sm font-medium text-gray-200">TensorFlow, CNN & ResNet50</span>
+                            <span class="text-xs text-brand-400"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></span>
+                        </div>
+                        <div class="w-full bg-dark-800 rounded-full h-1.5"><div class="bg-brand-500 h-1.5 rounded-full" style="width: 82%"></div></div>
+                    </div>
+                    <div>
+                        <div class="flex justify-between mb-1">
+                            <span class="text-sm font-medium text-gray-200">Pandas, NumPy & Scikit-learn</span>
+                            <span class="text-xs text-brand-400"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></span>
+                        </div>
+                        <div class="w-full bg-dark-800 rounded-full h-1.5"><div class="bg-brand-500 h-1.5 rounded-full" style="width: 85%"></div></div>
+                    </div>
+                    <div>
+                        <div class="flex justify-between mb-1">
+                            <span class="text-sm font-medium text-gray-200">NLP, spaCy & Speech Processing</span>
+                            <span class="text-xs text-brand-400"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></span>
+                        </div>
                         <div class="w-full bg-dark-800 rounded-full h-1.5"><div class="bg-brand-500 h-1.5 rounded-full" style="width: 80%"></div></div>
                     </div>
-                    <div>
-                        <div class="flex justify-between mb-1"><span class="text-sm font-medium text-gray-200">Pandas & NumPy</span><span class="text-xs text-brand-400"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i><i class="far fa-star"></i></span></div>
-                        <div class="w-full bg-dark-800 rounded-full h-1.5"><div class="bg-brand-500 h-1.5 rounded-full" style="width: 75%"></div></div>
-                    </div>
-                    <div>
-                        <div class="flex justify-between mb-1"><span class="text-sm font-medium text-gray-200">Scikit-learn</span><span class="text-xs text-brand-400"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i><i class="far fa-star"></i></span></div>
-                        <div class="w-full bg-dark-800 rounded-full h-1.5"><div class="bg-brand-500 h-1.5 rounded-full" style="width: 70%"></div></div>
-                    </div>
-                    <div>
-                        <div class="flex justify-between mb-1"><span class="text-sm font-medium text-gray-200">TensorFlow / CNN / ResNet</span><span class="text-xs text-brand-400"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i><i class="far fa-star"></i></span></div>
-                        <div class="w-full bg-dark-800 rounded-full h-1.5"><div class="bg-brand-500 h-1.5 rounded-full" style="width: 75%"></div></div>
-                    </div>
                 </div>
             </div>
 
-            <!-- Tools & Platforms -->
+            <!-- Databases & Tools -->
             <div class="card p-6 rounded-xl">
                 <h3 class="text-lg font-semibold mb-4 flex items-center text-white">
-                    <i class="fas fa-wrench mr-3 text-brand-400"></i> Tools & Platforms
+                    <i class="fas fa-wrench mr-3 text-brand-400"></i> Databases & Tools
                 </h3>
-                <div class="flex flex-wrap gap-2">
-                    <span class="px-4 py-2 bg-dark-700/50 border border-gray-700 rounded-full text-sm font-medium text-gray-200">GitHub</span>
-                    <span class="px-4 py-2 bg-dark-700/50 border border-gray-700 rounded-full text-sm font-medium text-gray-200">VS Code</span>
-                    <span class="px-4 py-2 bg-dark-700/50 border border-gray-700 rounded-full text-sm font-medium text-gray-200">Eclipse</span>
-                    <span class="px-4 py-2 bg-dark-700/50 border border-gray-700 rounded-full text-sm font-medium text-gray-200">Google Colab</span>
-                    <span class="px-4 py-2 bg-dark-700/50 border border-gray-700 rounded-full text-sm font-medium text-gray-200">ISPF</span>
-                    <span class="px-4 py-2 bg-dark-700/50 border border-gray-700 rounded-full text-sm font-medium text-gray-200">SDSF</span>
+                <div class="flex flex-wrap gap-2.5">
+                    <span class="px-4 py-2 bg-dark-700/50 border border-gray-700 rounded-full text-sm font-medium text-gray-200 flex items-center">
+                        <i class="fas fa-database text-brand-400 mr-2"></i>MySQL
+                    </span>
+                    <span class="px-4 py-2 bg-dark-700/50 border border-gray-700 rounded-full text-sm font-medium text-gray-200 flex items-center">
+                        <i class="fas fa-plug text-brand-400 mr-2"></i>JDBC
+                    </span>
+                    <span class="px-4 py-2 bg-dark-700/50 border border-gray-700 rounded-full text-sm font-medium text-gray-200 flex items-center">
+                        <i class="fab fa-git-alt text-orange-400 mr-2"></i>Git
+                    </span>
+                    <span class="px-4 py-2 bg-dark-700/50 border border-gray-700 rounded-full text-sm font-medium text-gray-200 flex items-center">
+                        <i class="fab fa-github mr-2"></i>GitHub
+                    </span>
+                    <span class="px-4 py-2 bg-dark-700/50 border border-gray-700 rounded-full text-sm font-medium text-gray-200 flex items-center">
+                        <i class="fas fa-code text-blue-400 mr-2"></i>VS Code
+                    </span>
+                    <span class="px-4 py-2 bg-dark-700/50 border border-gray-700 rounded-full text-sm font-medium text-gray-200 flex items-center">
+                        <i class="fas fa-laptop-code text-purple-400 mr-2"></i>Eclipse
+                    </span>
+                    <span class="px-4 py-2 bg-dark-700/50 border border-gray-700 rounded-full text-sm font-medium text-gray-200 flex items-center">
+                        <i class="fas fa-brain text-yellow-400 mr-2"></i>Google Colab
+                    </span>
                 </div>
             </div>
 
-            <!-- Core Concepts & Soft Skills -->
-            <div class="card p-6 rounded-xl">
-                <h3 class="text-lg font-semibold mb-4 flex items-center text-white">
-                    <i class="fas fa-lightbulb mr-3 text-brand-400"></i> Concepts & Soft Skills
-                </h3>
-                <div class="flex flex-wrap gap-2">
-                    <span class="px-4 py-2 bg-dark-700/50 border border-gray-700 rounded-full text-sm font-medium text-gray-200">OOPs</span>
-                    <span class="px-4 py-2 bg-dark-700/50 border border-gray-700 rounded-full text-sm font-medium text-gray-200">DBMS</span>
-                    <span class="px-4 py-2 bg-dark-700/50 border border-gray-700 rounded-full text-sm font-medium text-gray-200">Problem Solving</span>
-                    <span class="px-4 py-2 bg-dark-700/50 border border-gray-700 rounded-full text-sm font-medium text-gray-200">Machine Learning</span>
-                    <span class="px-4 py-2 bg-dark-700/50 border border-gray-700 rounded-full text-sm font-medium text-gray-200">Team Collaboration</span>
-                    <span class="px-4 py-2 bg-dark-700/50 border border-gray-700 rounded-full text-sm font-medium text-gray-200">Analytical Thinking</span>
-                    <span class="px-4 py-2 bg-dark-700/50 border border-gray-700 rounded-full text-sm font-medium text-gray-200">Adaptability</span>
+            <!-- Core Concepts, Soft Skills & Languages -->
+            <div class="card p-6 rounded-xl flex flex-col justify-between">
+                <div>
+                    <h3 class="text-lg font-semibold mb-4 flex items-center text-white">
+                        <i class="fas fa-layer-group mr-3 text-brand-400"></i> Core Concepts & Soft Skills
+                    </h3>
+                    
+                    <div class="mb-4">
+                        <p class="text-xs uppercase tracking-wider text-gray-400 font-semibold mb-2">Core Concepts</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-3 py-1.5 bg-dark-700/50 border border-gray-700 rounded-lg text-xs font-medium text-gray-200">Object-Oriented Programming (OOPs)</span>
+                            <span class="px-3 py-1.5 bg-dark-700/50 border border-gray-700 rounded-lg text-xs font-medium text-gray-200">DBMS</span>
+                            <span class="px-3 py-1.5 bg-dark-700/50 border border-gray-700 rounded-lg text-xs font-medium text-gray-200">Data Preprocessing</span>
+                        </div>
+                    </div>
+
+                    <div class="mb-4">
+                        <p class="text-xs uppercase tracking-wider text-gray-400 font-semibold mb-2">Soft Skills</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-3 py-1.5 bg-brand-500/10 border border-brand-500/20 text-brand-300 rounded-lg text-xs font-medium">Team Collaboration</span>
+                            <span class="px-3 py-1.5 bg-brand-500/10 border border-brand-500/20 text-brand-300 rounded-lg text-xs font-medium">Analytical Thinking</span>
+                            <span class="px-3 py-1.5 bg-brand-500/10 border border-brand-500/20 text-brand-300 rounded-lg text-xs font-medium">Adaptability</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pt-4 border-t border-gray-800">
+                    <p class="text-xs uppercase tracking-wider text-gray-400 font-semibold mb-2">Languages Known</p>
+                    <div class="flex gap-2">
+                        <span class="px-3 py-1 bg-dark-800 border border-gray-700 rounded-md text-xs font-medium text-gray-300">Telugu</span>
+                        <span class="px-3 py-1 bg-dark-800 border border-gray-700 rounded-md text-xs font-medium text-gray-300">English</span>
+                    </div>
                 </div>
             </div>
         </div>
@@ -479,76 +572,88 @@
     <section id="projects" class="py-20 px-6 max-w-7xl mx-auto bg-dark-900/50">
         <div class="mb-12 md:mb-16">
             <span class="kicker">Selected Works</span>
-            <h2 class="text-3xl md:text-4xl font-bold">Projects</h2>
+            <h2 class="text-3xl md:text-4xl font-bold">Featured Projects</h2>
         </div>
 
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
-            <!-- Project 1 -->
+            <!-- Project 1: AI-Driven Smart Hiring Platform -->
             <div class="card rounded-2xl overflow-hidden flex flex-col h-full group">
                 <div class="p-8 flex-1">
-                    <div class="w-14 h-14 bg-blue-500/10 rounded-xl flex items-center justify-center mb-6 text-blue-400 text-2xl group-hover:scale-110 transition-transform">
-                        <i class="fas fa-hospital-user"></i>
+                    <div class="w-14 h-14 bg-purple-500/10 rounded-xl flex items-center justify-center mb-6 text-purple-400 text-2xl group-hover:scale-110 transition-transform">
+                        <i class="fas fa-robot"></i>
                     </div>
-                    <h3 class="text-xl font-bold text-white mb-2">Doctor Management System</h3>
-                    <p class="text-sm text-brand-400 font-medium mb-4">2025</p>
-                    <ul class="text-gray-400 text-sm space-y-2 mb-6 list-disc list-inside">
-                        <li>Built a CRUD-based doctor, patient, and appointment management system.</li>
-                        <li>Ensured secure JDBC-MySQL integration for reliable data storage.</li>
-                        <li>Developed a user-friendly UI for seamless interaction.</li>
+                    <div class="flex items-center justify-between mb-2">
+                        <h3 class="text-xl font-bold text-white group-hover:text-brand-400 transition-colors">AI-Driven Smart Hiring Platform</h3>
+                        <span class="text-xs font-semibold px-2.5 py-1 bg-purple-500/20 text-purple-300 rounded-full border border-purple-500/30">2026</span>
+                    </div>
+                    <p class="text-sm text-brand-400 font-medium mb-4">Candidate Matching Copilot</p>
+                    <ul class="text-gray-400 text-sm space-y-2 mb-6 list-disc list-inside leading-relaxed">
+                        <li>Building an AI-driven hiring platform that matches candidate profiles to job requirements using resume parsing and similarity scoring.</li>
+                        <li>Developing a Candidate Matching Copilot that ranks applicants and gives recruiters clear match insights.</li>
+                        <li>Implementing voice-based candidate screening to evaluate responses and shortlist candidates automatically.</li>
+                        <li>Designing an AI mock interview module that asks role-specific questions and gives candidates feedback on their answers.</li>
                     </ul>
                     <div class="flex flex-wrap gap-2 mt-auto">
-                        <span class="text-xs font-semibold px-2 py-1 bg-dark-800 rounded text-gray-300">Java</span>
-                        <span class="text-xs font-semibold px-2 py-1 bg-dark-800 rounded text-gray-300">JDBC</span>
-                        <span class="text-xs font-semibold px-2 py-1 bg-dark-800 rounded text-gray-300">MySQL</span>
-                        <span class="text-xs font-semibold px-2 py-1 bg-dark-800 rounded text-gray-300">HTML/CSS</span>
+                        <span class="text-xs font-semibold px-2 py-1 bg-dark-800 rounded text-gray-300">Python</span>
+                        <span class="text-xs font-semibold px-2 py-1 bg-dark-800 rounded text-gray-300">Machine Learning</span>
+                        <span class="text-xs font-semibold px-2 py-1 bg-dark-800 rounded text-gray-300">NLP</span>
+                        <span class="text-xs font-semibold px-2 py-1 bg-dark-800 rounded text-gray-300">Speech Processing</span>
+                        <span class="text-xs font-semibold px-2 py-1 bg-dark-800 rounded text-gray-300">spaCy</span>
                     </div>
                 </div>
                 <div class="p-6 border-t border-gray-800 mt-auto bg-dark-800/30">
-                    <a href="https://github.com/Katasani-Vijayalakshmi" target="_blank" class="text-sm font-medium text-white hover:text-brand-400 flex items-center transition-colors">
+                    <a href="https://github.com/Katasani-Vijayalakshmi" target="_blank" rel="noopener noreferrer" class="text-sm font-medium text-white hover:text-brand-400 flex items-center transition-colors">
                         View Source Code <i class="fas fa-arrow-up-right-from-square ml-2 text-xs"></i>
                     </a>
                 </div>
             </div>
 
-            <!-- Project 2 -->
+            <!-- Project 2: UPI Fraud Detection System -->
             <div class="card rounded-2xl overflow-hidden flex flex-col h-full group">
                 <div class="p-8 flex-1">
                     <div class="w-14 h-14 bg-red-500/10 rounded-xl flex items-center justify-center mb-6 text-red-400 text-2xl group-hover:scale-110 transition-transform">
                         <i class="fas fa-shield-halved"></i>
                     </div>
-                    <h3 class="text-xl font-bold text-white mb-2">UPI Fraud Detection System</h3>
-                    <p class="text-sm text-brand-400 font-medium mb-4">2026</p>
-                    <ul class="text-gray-400 text-sm space-y-2 mb-6 list-disc list-inside">
-                        <li>Machine Learning system to detect fraudulent UPI transactions.</li>
-                        <li>Implemented extensive data preprocessing and predictive techniques.</li>
-                        <li>Secured transaction environments effectively.</li>
+                    <div class="flex items-center justify-between mb-2">
+                        <h3 class="text-xl font-bold text-white group-hover:text-brand-400 transition-colors">UPI Fraud Detection System</h3>
+                        <span class="text-xs font-semibold px-2.5 py-1 bg-red-500/20 text-red-300 rounded-full border border-red-500/30">2026</span>
+                    </div>
+                    <p class="text-sm text-brand-400 font-medium mb-4">Transaction Security System</p>
+                    <ul class="text-gray-400 text-sm space-y-2 mb-6 list-disc list-inside leading-relaxed">
+                        <li>Developed a machine learning-based system to identify suspicious UPI transactions and fraudulent payment activities.</li>
+                        <li>Performed data preprocessing and feature analysis to improve fraud detection accuracy and prediction performance.</li>
+                        <li>Applied predictive techniques to enhance digital transaction security and support reliable payment systems.</li>
                     </ul>
                     <div class="flex flex-wrap gap-2 mt-auto">
                         <span class="text-xs font-semibold px-2 py-1 bg-dark-800 rounded text-gray-300">Python</span>
-                        <span class="text-xs font-semibold px-2 py-1 bg-dark-800 rounded text-gray-300">ML</span>
+                        <span class="text-xs font-semibold px-2 py-1 bg-dark-800 rounded text-gray-300">Machine Learning</span>
                         <span class="text-xs font-semibold px-2 py-1 bg-dark-800 rounded text-gray-300">Pandas</span>
+                        <span class="text-xs font-semibold px-2 py-1 bg-dark-800 rounded text-gray-300">NumPy</span>
                         <span class="text-xs font-semibold px-2 py-1 bg-dark-800 rounded text-gray-300">Scikit-learn</span>
                     </div>
                 </div>
                 <div class="p-6 border-t border-gray-800 mt-auto bg-dark-800/30">
-                    <a href="https://github.com/Katasani-Vijayalakshmi" target="_blank" class="text-sm font-medium text-white hover:text-brand-400 flex items-center transition-colors">
+                    <a href="https://github.com/Katasani-Vijayalakshmi" target="_blank" rel="noopener noreferrer" class="text-sm font-medium text-white hover:text-brand-400 flex items-center transition-colors">
                         View Source Code <i class="fas fa-arrow-up-right-from-square ml-2 text-xs"></i>
                     </a>
                 </div>
             </div>
 
-            <!-- Project 3 -->
+            <!-- Project 3: Plant Disease Prediction -->
             <div class="card rounded-2xl overflow-hidden flex flex-col h-full group">
                 <div class="p-8 flex-1">
                     <div class="w-14 h-14 bg-green-500/10 rounded-xl flex items-center justify-center mb-6 text-green-400 text-2xl group-hover:scale-110 transition-transform">
                         <i class="fas fa-leaf"></i>
                     </div>
-                    <h3 class="text-xl font-bold text-white mb-2">Plant Disease Prediction</h3>
-                    <p class="text-sm text-brand-400 font-medium mb-4">2024</p>
-                    <ul class="text-gray-400 text-sm space-y-2 mb-6 list-disc list-inside">
-                        <li>Image-based disease classification model.</li>
-                        <li>Utilized CNN and ResNet50 architectures for high accuracy.</li>
-                        <li>Incorporated optimized data preprocessing techniques.</li>
+                    <div class="flex items-center justify-between mb-2">
+                        <h3 class="text-xl font-bold text-white group-hover:text-brand-400 transition-colors">Plant Disease Prediction</h3>
+                        <span class="text-xs font-semibold px-2.5 py-1 bg-green-500/20 text-green-300 rounded-full border border-green-500/30">2024</span>
+                    </div>
+                    <p class="text-sm text-brand-400 font-medium mb-4">Classification System</p>
+                    <ul class="text-gray-400 text-sm space-y-2 mb-6 list-disc list-inside leading-relaxed">
+                        <li>Developed a machine learning model for detecting and classifying plant diseases using image-based analysis.</li>
+                        <li>Applied CNN and ResNet50 techniques to improve disease prediction accuracy and classification performance.</li>
+                        <li>Performed data preprocessing and model optimization for better disease identification results.</li>
                     </ul>
                     <div class="flex flex-wrap gap-2 mt-auto">
                         <span class="text-xs font-semibold px-2 py-1 bg-dark-800 rounded text-gray-300">Python</span>
@@ -558,7 +663,7 @@
                     </div>
                 </div>
                 <div class="p-6 border-t border-gray-800 mt-auto bg-dark-800/30">
-                    <a href="https://github.com/Katasani-Vijayalakshmi" target="_blank" class="text-sm font-medium text-white hover:text-brand-400 flex items-center transition-colors">
+                    <a href="https://github.com/Katasani-Vijayalakshmi" target="_blank" rel="noopener noreferrer" class="text-sm font-medium text-white hover:text-brand-400 flex items-center transition-colors">
                         View Source Code <i class="fas fa-arrow-up-right-from-square ml-2 text-xs"></i>
                     </a>
                 </div>
@@ -573,29 +678,32 @@
             <h2 class="text-3xl md:text-4xl font-bold">Certifications</h2>
         </div>
 
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-            <div class="card p-6 rounded-xl text-center group">
-                <i class="fas fa-certificate text-3xl text-yellow-500 mb-4 group-hover:scale-110 transition-transform"></i>
-                <h3 class="font-bold text-white text-sm mb-2">TCS iON Career Edge</h3>
-                <p class="text-xs text-gray-400">Young Professional (2025)</p>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div class="card p-8 rounded-xl text-center group">
+                <div class="w-16 h-16 mx-auto mb-5 rounded-2xl bg-yellow-500/10 flex items-center justify-center group-hover:scale-110 transition-transform">
+                    <i class="fas fa-certificate text-3xl text-yellow-500"></i>
+                </div>
+                <h3 class="font-bold text-white text-base mb-2">TCS iON Career Edge</h3>
+                <p class="text-brand-400 text-sm font-medium mb-1">Young Professional</p>
+                <span class="inline-block px-3 py-1 bg-dark-800 rounded-full text-xs text-gray-400 border border-gray-700 mt-2">2025</span>
             </div>
             
-            <div class="card p-6 rounded-xl text-center group">
-                <i class="fas fa-database text-3xl text-blue-400 mb-4 group-hover:scale-110 transition-transform"></i>
-                <h3 class="font-bold text-white text-sm mb-2">SQL and Relational Databases 101</h3>
-                <p class="text-xs text-gray-400">IBM Skills Network (2026)</p>
+            <div class="card p-8 rounded-xl text-center group">
+                <div class="w-16 h-16 mx-auto mb-5 rounded-2xl bg-blue-500/10 flex items-center justify-center group-hover:scale-110 transition-transform">
+                    <i class="fas fa-database text-3xl text-blue-400"></i>
+                </div>
+                <h3 class="font-bold text-white text-base mb-2">SQL and Relational Databases 101</h3>
+                <p class="text-brand-400 text-sm font-medium mb-1">IBM Skills Network (DB0101EN)</p>
+                <span class="inline-block px-3 py-1 bg-dark-800 rounded-full text-xs text-gray-400 border border-gray-700 mt-2">2026</span>
             </div>
 
-            <div class="card p-6 rounded-xl text-center group">
-                <i class="fab fa-java text-3xl text-orange-400 mb-4 group-hover:scale-110 transition-transform"></i>
-                <h3 class="font-bold text-white text-sm mb-2">Java Programming Fundamentals</h3>
-                <p class="text-xs text-gray-400">Infosys Springboard (2024)</p>
-            </div>
-
-            <div class="card p-6 rounded-xl text-center group">
-                <i class="fas fa-server text-3xl text-brand-400 mb-4 group-hover:scale-110 transition-transform"></i>
-                <h3 class="font-bold text-white text-sm mb-2">Introduction to IBM z/OS</h3>
-                <p class="text-xs text-gray-400">IBM SkillsBuild</p>
+            <div class="card p-8 rounded-xl text-center group">
+                <div class="w-16 h-16 mx-auto mb-5 rounded-2xl bg-orange-500/10 flex items-center justify-center group-hover:scale-110 transition-transform">
+                    <i class="fab fa-java text-3xl text-orange-400"></i>
+                </div>
+                <h3 class="font-bold text-white text-base mb-2">Java Programming Fundamentals</h3>
+                <p class="text-brand-400 text-sm font-medium mb-1">Infosys Springboard</p>
+                <span class="inline-block px-3 py-1 bg-dark-800 rounded-full text-xs text-gray-400 border border-gray-700 mt-2">2024</span>
             </div>
         </div>
     </section>
@@ -603,13 +711,25 @@
     <!-- Contact Section -->
     <section id="contact" class="py-24 px-6 max-w-4xl mx-auto text-center">
         <span class="kicker text-center">Get In Touch</span>
-        <h2 class="text-4xl md:text-5xl font-bold mb-6">Let's Work Together</h2>
-        <p class="text-gray-400 text-lg mb-10 max-w-2xl mx-auto">
-            I'm currently looking for new opportunities. Whether you have a question or just want to say hi, I'll try my best to get back to you!
+        <h2 class="text-4xl md:text-5xl font-bold mb-6">Let's Connect & Work Together</h2>
+        <p class="text-gray-400 text-lg mb-10 max-w-2xl mx-auto leading-relaxed">
+            I am actively seeking opportunities to contribute to cutting-edge AI, machine learning, and software development projects. Feel free to reach out directly!
         </p>
-        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=kvijaya4446@gmail.com" target="_blank" rel="noopener noreferrer" class="inline-flex items-center btn-primary px-8 py-4 rounded-full text-white font-bold text-lg shadow-[0_0_20px_rgba(59,130,246,0.4)]">
-            Say Hello <i class="fas fa-paper-plane ml-3"></i>
-        </a>
+        
+        <div class="flex flex-wrap justify-center gap-4 mb-10">
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=kvijaya4446@gmail.com" target="_blank" rel="noopener noreferrer" class="inline-flex items-center btn-primary px-8 py-4 rounded-full text-white font-bold text-base shadow-[0_0_20px_rgba(59,130,246,0.4)]">
+                <i class="fas fa-paper-plane mr-3"></i> Say Hello (Email)
+            </a>
+            <a href="tel:+916301687092" class="inline-flex items-center btn-secondary px-8 py-4 rounded-full text-white font-bold text-base hover:text-brand-400">
+                <i class="fas fa-phone mr-3 text-green-400"></i> +91 6301687092
+            </a>
+        </div>
+
+        <div class="flex justify-center items-center gap-6 text-gray-400 text-sm">
+            <span class="flex items-center"><i class="fas fa-location-dot text-brand-400 mr-2"></i>Nandyal, India</span>
+            <span class="text-gray-600">•</span>
+            <a href="mailto:kvijaya4446@gmail.com" class="hover:text-brand-400 transition-colors">kvijaya4446@gmail.com</a>
+        </div>
     </section>
 
     <!-- Footer -->
@@ -620,14 +740,17 @@
             </p>
             
             <div class="flex gap-4">
-                <a href="https://github.com/Katasani-Vijayalakshmi" target="_blank" rel="noopener noreferrer" class="text-gray-500 hover:text-white transition-colors">
+                <a href="https://github.com/Katasani-Vijayalakshmi" target="_blank" rel="noopener noreferrer" class="text-gray-500 hover:text-white transition-colors" aria-label="GitHub">
                     <i class="fab fa-github text-xl"></i>
                 </a>
-                <a href="https://www.linkedin.com/in/katasani-vijayalakshmi/" target="_blank" rel="noopener noreferrer" class="text-gray-500 hover:text-white transition-colors">
+                <a href="https://www.linkedin.com/in/katasani-vijayalakshmi/" target="_blank" rel="noopener noreferrer" class="text-gray-500 hover:text-white transition-colors" aria-label="LinkedIn">
                     <i class="fab fa-linkedin text-xl"></i>
                 </a>
-                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=kvijaya4446@gmail.com" target="_blank" rel="noopener noreferrer" class="text-gray-500 hover:text-white transition-colors">
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=kvijaya4446@gmail.com" target="_blank" rel="noopener noreferrer" class="text-gray-500 hover:text-white transition-colors" aria-label="Email">
                     <i class="fas fa-envelope text-xl"></i>
+                </a>
+                <a href="tel:+916301687092" class="text-gray-500 hover:text-white transition-colors" aria-label="Phone">
+                    <i class="fas fa-phone text-lg"></i>
                 </a>
             </div>
         </div>
